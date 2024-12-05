@@ -9,7 +9,7 @@ body {
 }
 
 .calculator {
-    width: 300px;
+    width: 350px;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -35,13 +35,13 @@ body {
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
+    gap: 1.5px;
     background: #ddd;
 }
 
 button {
-    font-size: 1.2rem;
-    padding: 20px;
+    font-size: 1.5rem;
+    padding: 25px;
     background: #f9f9f9;
     border: none;
     cursor: pointer;
@@ -62,10 +62,12 @@ button:nth-child(4n):hover {
 }
 
 button:nth-last-child(1) {
-    background: #007bff;
+    background-color: #28a745;
     color: #fff;
+    grid-column: span 2;
+  
 }
 
 button:nth-last-child(1):hover {
-    background: #0056b3;
+    background-color: #218838;
 }
